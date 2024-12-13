@@ -19,10 +19,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./app/assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jj_24.PBapp"
     },
     "web": {
       "favicon": "./app/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "df3796fc-529c-4e4d-a1ed-f5fd5621f1a8"
+      }
     }
   }
 }
