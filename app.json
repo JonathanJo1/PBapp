@@ -16,11 +16,15 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions": ["INTERNET"],
       "adaptiveIcon": {
         "foregroundImage": "./app/assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.jj_24.PBapp"
+    },
+    "packagerOpts": {
+        "hostType": "lan"
     },
     "web": {
       "favicon": "./app/assets/favicon.png"
