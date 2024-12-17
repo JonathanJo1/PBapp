@@ -17,6 +17,8 @@
     },
     "android": {
       "permissions": ["INTERNET"],
+      "useNextNotificationsApi": true,
+      "allowClearTextTraffic": true,
       "adaptiveIcon": {
         "foregroundImage": "./app/assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"

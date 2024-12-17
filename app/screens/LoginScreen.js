@@ -26,7 +26,8 @@ export default function LoginScreen({ navigation }) {
             }
         } catch (error) {
             console.error(error);
-            Alert.alert('Error', 'Failed to connect to the server. Please check your setup.');
+
+            Alert.alert('Error1', error.response?.data || error);
         }
     };
 
