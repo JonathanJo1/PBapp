@@ -13,7 +13,7 @@ export default function LoginScreen({ navigation }) {
         }
 
         try {
-            const response = await axios.post('http://192.168.0.14/react_native_api/login.php', {
+            const response = await axios.post('http://192.168.18.130/react_native_api/login.php', {
                 username,
                 password,
             });
